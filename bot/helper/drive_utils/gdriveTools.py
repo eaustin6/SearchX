@@ -521,9 +521,9 @@ class GoogleDriveHelper:
 
         for content in self.telegraph_content:
             self.path.append(
-                telegra_ph.create_page(title='SearchX',
-                                          author_name='XXX',
-                                          author_url='https://github.com/l3v11',
+                telegra_ph.create_page(title='Sito Cloud',
+                                          author_name='Sito Mao',
+                                          author_url='https://t.me/sito_mao',
                                           html_content=content)['path'])
 
         msg = "Found " + ("too many" if content_count > telegraph_limit else f"{content_count}") + " results"
